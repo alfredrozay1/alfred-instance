@@ -8,7 +8,7 @@ pipeline {
 	stages {
 		stage("GitHub Checkout") {
 			steps {
-				git branch: 'main', url: 'https://github.com/josiokoko/raycoy-server.git'
+				git branch: 'main', url: 'https://github.com/alfredrozay1/alfred-instance.git'
 			}
 		}
 
